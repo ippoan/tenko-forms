@@ -1,0 +1,52 @@
+name: Fetch forms
+
+# 週 1 回、catalog.json の様式を取り直す。内容が変わったものがあれば
+# 日付付きのファイルを足した PR を作る。取れなかった様式があれば job を落とす
+# (国交省が URL を差し替えた合図。catalog.json の url を直す)。
+on:
+  schedule:
+    - cron: "0 0 * * 1" # 月曜 09:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch
+        id: fetch
+        run: |
+          status=0
+          python3 scripts/fetch.py || status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR for changed forms
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "変更なし"
+            exit 0
+          fi
+          date=$(TZ=Asia/Tokyo date +%F)
+          branch="fetch/$date"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add forms manifest.json
+          git commit -m "forms: $date の取り直しで変わった様式を足す"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "forms: $date の取り直しで変わった様式" \
+            --body "週 1 回の取り直しで、内容 (sha256) が変わった様式を日付付きで足しました。差分は manifest.json の versions を見てください。"
+
+      - name: Fail if any form could not be fetched
+        if: steps.fetch.outputs.status != '0'
+        run: |
+          echo "::error::取れなかった様式があります。Fetch の出力 (Summary) を見て catalog.json の url を直してください"
+          exit 1

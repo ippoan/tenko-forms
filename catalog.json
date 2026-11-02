@@ -1,0 +1,50 @@
+{
+  "$comment": "取り込む様式の一覧。url は国土交通省の公開ページ (https://www.mlit.go.jp/jidosha/jidosha_tk2_000082.html ほか) から引いた直リンク。url が null のものは自動では取れないので手で置く (python3 scripts/fetch.py --add <id> <file>)。",
+  "forms": [
+    { "id": "egov-tenko-todokede-sankou", "group": "e-Gov", "title": "自動車運送事業者の各種点呼（IT・遠隔・自動点呼等）の実施・変更・終了の届出・報告 参考様式", "url": null, "source": "e-Gov 電子申請の当該手続のページから手で取得 (a15596A069500001.xlsx)" },
+
+    { "id": "remote-kamotsu-bessi7-jisshi", "group": "遠隔点呼 届出 (貨物)", "title": "遠隔点呼の実施に係る届出書 (貨物 別紙7)", "url": "https://www.mlit.go.jp/jidosha/content/001976975.docx" },
+    { "id": "remote-kamotsu-bessi8-henko", "group": "遠隔点呼 届出 (貨物)", "title": "遠隔点呼の変更に係る届出書 (貨物 別紙8)", "url": "https://www.mlit.go.jp/jidosha/content/001976976.docx" },
+    { "id": "remote-kamotsu-bessi9-shuryo", "group": "遠隔点呼 届出 (貨物)", "title": "遠隔点呼の終了に係る届出書 (貨物 別紙9)", "url": "https://www.mlit.go.jp/jidosha/content/001904947.docx" },
+    { "id": "remote-ryokaku-bessi3-jisshi", "group": "遠隔点呼 届出 (旅客)", "title": "遠隔点呼の実施に係る届出書 (旅客 別紙3)", "url": "https://www.mlit.go.jp/jidosha/content/001976973.docx" },
+    { "id": "remote-ryokaku-bessi4-henko", "group": "遠隔点呼 届出 (旅客)", "title": "遠隔点呼の変更に係る届出書 (旅客 別紙4)", "url": "https://www.mlit.go.jp/jidosha/content/001976974.docx" },
+    { "id": "remote-ryokaku-bessi5-shuryo", "group": "遠隔点呼 届出 (旅客)", "title": "遠隔点呼の終了に係る届出書 (旅客 別紙5)", "url": "https://www.mlit.go.jp/jidosha/content/001906396.docx" },
+
+    { "id": "auto-kamotsu-bessi10-jisshi", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の実施に係る届出書 (貨物 別紙10)", "url": "https://www.mlit.go.jp/jidosha/content/001904948.docx" },
+    { "id": "auto-kamotsu-bessi11-henko", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の変更に係る届出書 (貨物 別紙11)", "url": "https://www.mlit.go.jp/jidosha/content/001904949.docx" },
+    { "id": "auto-kamotsu-bessi12-shuryo", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の終了に係る届出書 (貨物 別紙12)", "url": "https://www.mlit.go.jp/jidosha/content/001904950.docx" },
+    { "id": "auto-kamotsu-bessi10-jisshi-pdf", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の実施に係る届出書 (貨物 別紙10) PDF", "url": "https://www.mlit.go.jp/jidosha/content/002005435.pdf" },
+    { "id": "auto-kamotsu-bessi11-henko-pdf", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の変更に係る届出書 (貨物 別紙11) PDF", "url": "https://www.mlit.go.jp/jidosha/content/002005436.pdf" },
+    { "id": "auto-kamotsu-bessi12-shuryo-pdf", "group": "自動点呼 届出 (貨物)", "title": "自動点呼の終了に係る届出書 (貨物 別紙12) PDF", "url": "https://www.mlit.go.jp/jidosha/content/002005437.pdf" },
+    { "id": "auto-ryokaku-bessi6-jisshi", "group": "自動点呼 届出 (旅客)", "title": "自動点呼の実施に係る届出書 (旅客 別紙6)", "url": "https://www.mlit.go.jp/jidosha/content/001904944.docx" },
+    { "id": "auto-ryokaku-bessi7-henko", "group": "自動点呼 届出 (旅客)", "title": "自動点呼の変更に係る届出書 (旅客 別紙7)", "url": "https://www.mlit.go.jp/jidosha/content/001904945.docx" },
+    { "id": "auto-ryokaku-bessi8-shuryo", "group": "自動点呼 届出 (旅客)", "title": "自動点呼の終了に係る届出書 (旅客 別紙8)", "url": "https://www.mlit.go.jp/jidosha/content/001904946.docx" },
+
+    { "id": "nintei-yoshiki1-shinsei", "group": "自動点呼機器の認定", "title": "自動点呼機器認定申請書 (様式1)", "url": "https://www.mlit.go.jp/jidosha/content/001894138.docx" },
+    { "id": "nintei-yoshiki2-gaiyo", "group": "自動点呼機器の認定", "title": "自動点呼機器の概要 (様式2)", "url": "https://www.mlit.go.jp/jidosha/content/001894139.docx" },
+    { "id": "nintei-yoshiki3-1-gyomumae-check", "group": "自動点呼機器の認定", "title": "業務前自動点呼機器の要件に係る自己チェック表 (様式3-1)", "url": "https://www.mlit.go.jp/jidosha/content/001894144.docx" },
+    { "id": "nintei-yoshiki3-2-gyomugo-check", "group": "自動点呼機器の認定", "title": "業務後自動点呼機器の要件に係る自己チェック表 (様式3-2)", "url": "https://www.mlit.go.jp/jidosha/content/001895539.docx" },
+    { "id": "nintei-yoshiki5-shiyo-henko", "group": "自動点呼機器の認定", "title": "仕様変更申請書 (様式5)", "url": "https://www.mlit.go.jp/jidosha/content/001894142.docx" },
+    { "id": "nintei-yoshiki7-haishi", "group": "自動点呼機器の認定", "title": "認定廃止届出書 (様式7)", "url": "https://www.mlit.go.jp/jidosha/content/001894143.docx" },
+    { "id": "nintei-yoryo", "group": "自動点呼機器の認定", "title": "自動点呼機器認定要領", "url": "https://www.mlit.go.jp/jidosha/content/001894146.pdf" },
+    { "id": "faq-jidotenko-kiki-yoken", "group": "自動点呼機器の認定", "title": "FAQ 業務前・業務後自動点呼機器の要件", "url": "https://www.mlit.go.jp/jidosha/content/001914318.pdf" },
+
+    { "id": "check-remote-junshu", "group": "チェックリスト", "title": "遠隔点呼 実施時の遵守事項", "url": "https://www.mlit.go.jp/jidosha/content/001904795.docx" },
+    { "id": "check-remote-kiki", "group": "チェックリスト", "title": "遠隔点呼 機器システムの要件", "url": "https://www.mlit.go.jp/jidosha/content/001904796.docx" },
+    { "id": "check-remote-shisetsu", "group": "チェックリスト", "title": "遠隔点呼 施設環境要件", "url": "https://www.mlit.go.jp/jidosha/content/001904797.docx" },
+    { "id": "check-gyomumae-junshu", "group": "チェックリスト", "title": "業務前自動点呼 実施時の遵守事項", "url": "https://www.mlit.go.jp/jidosha/content/001908594.docx" },
+    { "id": "check-gyomumae-kiki", "group": "チェックリスト", "title": "業務前自動点呼 機器システムの要件", "url": "https://www.mlit.go.jp/jidosha/content/001912849.docx" },
+    { "id": "check-gyomumae-shisetsu", "group": "チェックリスト", "title": "業務前自動点呼 施設環境要件", "url": "https://www.mlit.go.jp/jidosha/content/001904756.docx" },
+    { "id": "check-gyomugo-junshu", "group": "チェックリスト", "title": "業務後自動点呼 実施時の遵守事項", "url": "https://www.mlit.go.jp/jidosha/content/001904757.docx" },
+    { "id": "check-gyomugo-kiki", "group": "チェックリスト", "title": "業務後自動点呼 機器システムの要件", "url": "https://www.mlit.go.jp/jidosha/content/001904758.docx" },
+    { "id": "check-gyomugo-shisetsu", "group": "チェックリスト", "title": "業務後自動点呼 施設環境要件", "url": "https://www.mlit.go.jp/jidosha/content/001904759.docx" },
+
+    { "id": "kokuji-r5-266", "group": "告示", "title": "令和5年国土交通省告示第266号", "url": "https://www.mlit.go.jp/jidosha/content/001599026.pdf" },
+    { "id": "kokuji-r6-278", "group": "告示", "title": "令和6年国土交通省告示第278号 (一部改正)", "url": "https://www.mlit.go.jp/jidosha/content/001735636.pdf" },
+    { "id": "kokuji-r7-347", "group": "告示", "title": "令和7年国土交通省告示第347号 (一部改正)", "url": "https://www.mlit.go.jp/jidosha/content/001887464.pdf" },
+    { "id": "kokuji-r8-792", "group": "告示", "title": "令和8年国土交通省告示第792号 (一部改正)", "url": "https://www.mlit.go.jp/jidosha/content/002008414.pdf" },
+    { "id": "kokuji-266-zenbun", "group": "告示", "title": "告示第266号 改正後全文 (参考)", "url": "https://www.mlit.go.jp/jidosha/content/001904753.pdf" },
+
+    { "id": "online-taisho-tetsuzuki-ichiran", "group": "オンライン申請", "title": "オンライン申請対象手続一覧 (自動車運送事業関連手続)", "url": "https://www.mlit.go.jp/jidosha/content/001901867.xlsx" }
+  ]
+}

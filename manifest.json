@@ -1,0 +1,550 @@
+{
+  "forms": {
+    "auto-kamotsu-bessi10-jisshi": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi10-jisshi/2026-11-03.docx",
+          "sha256": "738d516a9ab9da74d76893067bb048d7f136e5c299c39a6cc9150565d0ffc807",
+          "size": 28263,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904948.docx"
+        }
+      ],
+      "title": "自動点呼の実施に係る届出書 (貨物 別紙10)",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi10-jisshi/2026-11-03.docx"
+    },
+    "auto-kamotsu-bessi10-jisshi-pdf": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi10-jisshi-pdf/2026-11-03.pdf",
+          "sha256": "da6d47f66b413f37c1ee28260c638de66df522db70efcaf78a976b004db62baa",
+          "size": 83540,
+          "url": "https://www.mlit.go.jp/jidosha/content/002005435.pdf"
+        }
+      ],
+      "title": "自動点呼の実施に係る届出書 (貨物 別紙10) PDF",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi10-jisshi-pdf/2026-11-03.pdf"
+    },
+    "auto-kamotsu-bessi11-henko": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi11-henko/2026-11-03.docx",
+          "sha256": "89b5f3beb3c838a3341c1555968dec79e6bd237d6e26eda16f01ad588c8b89a1",
+          "size": 28119,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904949.docx"
+        }
+      ],
+      "title": "自動点呼の変更に係る届出書 (貨物 別紙11)",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi11-henko/2026-11-03.docx"
+    },
+    "auto-kamotsu-bessi11-henko-pdf": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi11-henko-pdf/2026-11-03.pdf",
+          "sha256": "4f55f6a000782b2d38df6c087b09c4c9a1cad0fd746728f1bb7e2cd5780b54a4",
+          "size": 82466,
+          "url": "https://www.mlit.go.jp/jidosha/content/002005436.pdf"
+        }
+      ],
+      "title": "自動点呼の変更に係る届出書 (貨物 別紙11) PDF",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi11-henko-pdf/2026-11-03.pdf"
+    },
+    "auto-kamotsu-bessi12-shuryo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi12-shuryo/2026-11-03.docx",
+          "sha256": "0f503239376e580af209e4cd49bff0f7c357972aa6b8389457b3fb9d230e0815",
+          "size": 27151,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904950.docx"
+        }
+      ],
+      "title": "自動点呼の終了に係る届出書 (貨物 別紙12)",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi12-shuryo/2026-11-03.docx"
+    },
+    "auto-kamotsu-bessi12-shuryo-pdf": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-kamotsu-bessi12-shuryo-pdf/2026-11-03.pdf",
+          "sha256": "663a86e0c48d20fa46120896481505a90622ccb1ae1286a45ba8a1f181eae03d",
+          "size": 58851,
+          "url": "https://www.mlit.go.jp/jidosha/content/002005437.pdf"
+        }
+      ],
+      "title": "自動点呼の終了に係る届出書 (貨物 別紙12) PDF",
+      "group": "自動点呼 届出 (貨物)",
+      "latest": "forms/auto-kamotsu-bessi12-shuryo-pdf/2026-11-03.pdf"
+    },
+    "auto-ryokaku-bessi6-jisshi": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-ryokaku-bessi6-jisshi/2026-11-03.docx",
+          "sha256": "6f7def4dc665fbcea77f487a322b15aa382a0fb2deb0b048c798c51c5495b84a",
+          "size": 28269,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904944.docx"
+        }
+      ],
+      "title": "自動点呼の実施に係る届出書 (旅客 別紙6)",
+      "group": "自動点呼 届出 (旅客)",
+      "latest": "forms/auto-ryokaku-bessi6-jisshi/2026-11-03.docx"
+    },
+    "auto-ryokaku-bessi7-henko": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-ryokaku-bessi7-henko/2026-11-03.docx",
+          "sha256": "aba494ef4d070310fdcc474aaf1c12d444197c1d98f1b758bb79621560d45306",
+          "size": 28176,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904945.docx"
+        }
+      ],
+      "title": "自動点呼の変更に係る届出書 (旅客 別紙7)",
+      "group": "自動点呼 届出 (旅客)",
+      "latest": "forms/auto-ryokaku-bessi7-henko/2026-11-03.docx"
+    },
+    "auto-ryokaku-bessi8-shuryo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/auto-ryokaku-bessi8-shuryo/2026-11-03.docx",
+          "sha256": "e5938b8396eee8bb2158cdbc8d3b0689ada9de1c804404d6ab00ed05e3921ab2",
+          "size": 27162,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904946.docx"
+        }
+      ],
+      "title": "自動点呼の終了に係る届出書 (旅客 別紙8)",
+      "group": "自動点呼 届出 (旅客)",
+      "latest": "forms/auto-ryokaku-bessi8-shuryo/2026-11-03.docx"
+    },
+    "check-gyomugo-junshu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomugo-junshu/2026-11-03.docx",
+          "sha256": "c6c1d00267cf0589d730712f3221be7aa9a939b26794da343bdd6e5aca9683e0",
+          "size": 27408,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904757.docx"
+        }
+      ],
+      "title": "業務後自動点呼 実施時の遵守事項",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomugo-junshu/2026-11-03.docx"
+    },
+    "check-gyomugo-kiki": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomugo-kiki/2026-11-03.docx",
+          "sha256": "cb71bb8b40b8defc906cd038f141f9fbc1c1a4dab273c4cc8bf9d2a41551cf6b",
+          "size": 28616,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904758.docx"
+        }
+      ],
+      "title": "業務後自動点呼 機器システムの要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomugo-kiki/2026-11-03.docx"
+    },
+    "check-gyomugo-shisetsu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomugo-shisetsu/2026-11-03.docx",
+          "sha256": "d9fa19c1189e6721bba48cbb332a098b28398e392fbc66e6e94cb11e9879d793",
+          "size": 25556,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904759.docx"
+        }
+      ],
+      "title": "業務後自動点呼 施設環境要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomugo-shisetsu/2026-11-03.docx"
+    },
+    "check-gyomumae-junshu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomumae-junshu/2026-11-03.docx",
+          "sha256": "abf016ecc345ce77e94af257f84a3050684fa4defe924a37876484fe14c1f868",
+          "size": 28017,
+          "url": "https://www.mlit.go.jp/jidosha/content/001908594.docx"
+        }
+      ],
+      "title": "業務前自動点呼 実施時の遵守事項",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomumae-junshu/2026-11-03.docx"
+    },
+    "check-gyomumae-kiki": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomumae-kiki/2026-11-03.docx",
+          "sha256": "a7db9036072ec8b8d461f33ce80cf760a91aaa1ef02eb52ffd84542cbb7486ab",
+          "size": 30932,
+          "url": "https://www.mlit.go.jp/jidosha/content/001912849.docx"
+        }
+      ],
+      "title": "業務前自動点呼 機器システムの要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomumae-kiki/2026-11-03.docx"
+    },
+    "check-gyomumae-shisetsu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-gyomumae-shisetsu/2026-11-03.docx",
+          "sha256": "6caeb7509e1bc35d01fe43fbfae3745931f481cb31d5aa6fcb4ce0b65469e239",
+          "size": 25556,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904756.docx"
+        }
+      ],
+      "title": "業務前自動点呼 施設環境要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-gyomumae-shisetsu/2026-11-03.docx"
+    },
+    "check-remote-junshu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-remote-junshu/2026-11-03.docx",
+          "sha256": "04dab5ed65d9931e3287546de55b4be8e1a1629f656da09239f3a53e5d7185eb",
+          "size": 27682,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904795.docx"
+        }
+      ],
+      "title": "遠隔点呼 実施時の遵守事項",
+      "group": "チェックリスト",
+      "latest": "forms/check-remote-junshu/2026-11-03.docx"
+    },
+    "check-remote-kiki": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-remote-kiki/2026-11-03.docx",
+          "sha256": "8ddecc09c4c3268a510221aa89bf2b65b8ecc916654515fb127f0184233cd389",
+          "size": 30754,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904796.docx"
+        }
+      ],
+      "title": "遠隔点呼 機器システムの要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-remote-kiki/2026-11-03.docx"
+    },
+    "check-remote-shisetsu": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/check-remote-shisetsu/2026-11-03.docx",
+          "sha256": "12868741712338747e39698fe4e633db7ad4d36d02690790a8d8aaa5083ba847",
+          "size": 26171,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904797.docx"
+        }
+      ],
+      "title": "遠隔点呼 施設環境要件",
+      "group": "チェックリスト",
+      "latest": "forms/check-remote-shisetsu/2026-11-03.docx"
+    },
+    "egov-tenko-todokede-sankou": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/egov-tenko-todokede-sankou/2026-11-03.xlsx",
+          "sha256": "7c60071147880144a672e8a1e534639897bcaa3f747196a1203afab2c4d6ed5e",
+          "size": 24379,
+          "url": null
+        }
+      ],
+      "title": "自動車運送事業者の各種点呼（IT・遠隔・自動点呼等）の実施・変更・終了の届出・報告 参考様式",
+      "group": "e-Gov",
+      "latest": "forms/egov-tenko-todokede-sankou/2026-11-03.xlsx"
+    },
+    "faq-jidotenko-kiki-yoken": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/faq-jidotenko-kiki-yoken/2026-11-03.pdf",
+          "sha256": "003471b12216299fbb3665238dd5df7085dbe3a8ddbf6a2e3debe5071dfd61eb",
+          "size": 1224322,
+          "url": "https://www.mlit.go.jp/jidosha/content/001914318.pdf"
+        }
+      ],
+      "title": "FAQ 業務前・業務後自動点呼機器の要件",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/faq-jidotenko-kiki-yoken/2026-11-03.pdf"
+    },
+    "kokuji-266-zenbun": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/kokuji-266-zenbun/2026-11-03.pdf",
+          "sha256": "18a71eb5f20dc30e5294b75a05b1341e8be0baa22018ba0cf616a31db09d494e",
+          "size": 264471,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904753.pdf"
+        }
+      ],
+      "title": "告示第266号 改正後全文 (参考)",
+      "group": "告示",
+      "latest": "forms/kokuji-266-zenbun/2026-11-03.pdf"
+    },
+    "kokuji-r5-266": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/kokuji-r5-266/2026-11-03.pdf",
+          "sha256": "6f18e952340ed559aa3c92e484ada584e2be0fcede1f324fdb9fad7dc16a86bc",
+          "size": 243582,
+          "url": "https://www.mlit.go.jp/jidosha/content/001599026.pdf"
+        }
+      ],
+      "title": "令和5年国土交通省告示第266号",
+      "group": "告示",
+      "latest": "forms/kokuji-r5-266/2026-11-03.pdf"
+    },
+    "kokuji-r6-278": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/kokuji-r6-278/2026-11-03.pdf",
+          "sha256": "1cd252c4704896e775e0aa9379c623d2ae3223b95cfac668813ed30b26971a31",
+          "size": 246999,
+          "url": "https://www.mlit.go.jp/jidosha/content/001735636.pdf"
+        }
+      ],
+      "title": "令和6年国土交通省告示第278号 (一部改正)",
+      "group": "告示",
+      "latest": "forms/kokuji-r6-278/2026-11-03.pdf"
+    },
+    "kokuji-r7-347": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/kokuji-r7-347/2026-11-03.pdf",
+          "sha256": "7a79792b8bdc78efb7a4f6c6407982b66569745b5ca9633336067ad4b20a1a24",
+          "size": 267492,
+          "url": "https://www.mlit.go.jp/jidosha/content/001887464.pdf"
+        }
+      ],
+      "title": "令和7年国土交通省告示第347号 (一部改正)",
+      "group": "告示",
+      "latest": "forms/kokuji-r7-347/2026-11-03.pdf"
+    },
+    "kokuji-r8-792": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/kokuji-r8-792/2026-11-03.pdf",
+          "sha256": "b3abdf084f05977ff40525f0e94ef657b1b410e791e9556fbf7cf500c6fbfac8",
+          "size": 109236,
+          "url": "https://www.mlit.go.jp/jidosha/content/002008414.pdf"
+        }
+      ],
+      "title": "令和8年国土交通省告示第792号 (一部改正)",
+      "group": "告示",
+      "latest": "forms/kokuji-r8-792/2026-11-03.pdf"
+    },
+    "nintei-yoryo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoryo/2026-11-03.pdf",
+          "sha256": "37e0d81414643de1465f70df9842c49ad5c10dfdcdb643b40a2c60bc6e474de4",
+          "size": 885852,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894146.pdf"
+        }
+      ],
+      "title": "自動点呼機器認定要領",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoryo/2026-11-03.pdf"
+    },
+    "nintei-yoshiki1-shinsei": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki1-shinsei/2026-11-03.docx",
+          "sha256": "555211a423f5ffa3efe3bbad86f90a79ca6427979fc1eeb1b4426bd10e61b97f",
+          "size": 31730,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894138.docx"
+        }
+      ],
+      "title": "自動点呼機器認定申請書 (様式1)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki1-shinsei/2026-11-03.docx"
+    },
+    "nintei-yoshiki2-gaiyo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki2-gaiyo/2026-11-03.docx",
+          "sha256": "ecd6f7c5553f266d040e857b9bb48c48c05e68c33d7eff70db766df5f906d9d8",
+          "size": 31322,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894139.docx"
+        }
+      ],
+      "title": "自動点呼機器の概要 (様式2)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki2-gaiyo/2026-11-03.docx"
+    },
+    "nintei-yoshiki3-1-gyomumae-check": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki3-1-gyomumae-check/2026-11-03.docx",
+          "sha256": "6c548e748a2cc787f190fb4add8e67c0699534bb44b4717b415ae825ae15e79a",
+          "size": 53506,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894144.docx"
+        }
+      ],
+      "title": "業務前自動点呼機器の要件に係る自己チェック表 (様式3-1)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki3-1-gyomumae-check/2026-11-03.docx"
+    },
+    "nintei-yoshiki3-2-gyomugo-check": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki3-2-gyomugo-check/2026-11-03.docx",
+          "sha256": "85f67018d95229573575cbdbca599984e6b99d550d72be9165e91f6fea52b56f",
+          "size": 52750,
+          "url": "https://www.mlit.go.jp/jidosha/content/001895539.docx"
+        }
+      ],
+      "title": "業務後自動点呼機器の要件に係る自己チェック表 (様式3-2)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki3-2-gyomugo-check/2026-11-03.docx"
+    },
+    "nintei-yoshiki5-shiyo-henko": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki5-shiyo-henko/2026-11-03.docx",
+          "sha256": "e8701157baf66ccbf74fbc351f9ad8b4fcdec37cec50a43ebe33689ed942baf0",
+          "size": 30308,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894142.docx"
+        }
+      ],
+      "title": "仕様変更申請書 (様式5)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki5-shiyo-henko/2026-11-03.docx"
+    },
+    "nintei-yoshiki7-haishi": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/nintei-yoshiki7-haishi/2026-11-03.docx",
+          "sha256": "9d5addee035597c1173fd407be88b4b1c35bb2e4f518c8a17f9265e3452578a7",
+          "size": 30366,
+          "url": "https://www.mlit.go.jp/jidosha/content/001894143.docx"
+        }
+      ],
+      "title": "認定廃止届出書 (様式7)",
+      "group": "自動点呼機器の認定",
+      "latest": "forms/nintei-yoshiki7-haishi/2026-11-03.docx"
+    },
+    "online-taisho-tetsuzuki-ichiran": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/online-taisho-tetsuzuki-ichiran/2026-11-03.xlsx",
+          "sha256": "85bf92a22ba56ee8d8defbd30e687181020f63480801ede963b3ee0c19f844c3",
+          "size": 44880,
+          "url": "https://www.mlit.go.jp/jidosha/content/001901867.xlsx"
+        }
+      ],
+      "title": "オンライン申請対象手続一覧 (自動車運送事業関連手続)",
+      "group": "オンライン申請",
+      "latest": "forms/online-taisho-tetsuzuki-ichiran/2026-11-03.xlsx"
+    },
+    "remote-kamotsu-bessi7-jisshi": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-kamotsu-bessi7-jisshi/2026-11-03.docx",
+          "sha256": "ddc2f563dda238267844e217df4a3c8afc4d1289a186ae93aa400ea8d56d639a",
+          "size": 28726,
+          "url": "https://www.mlit.go.jp/jidosha/content/001976975.docx"
+        }
+      ],
+      "title": "遠隔点呼の実施に係る届出書 (貨物 別紙7)",
+      "group": "遠隔点呼 届出 (貨物)",
+      "latest": "forms/remote-kamotsu-bessi7-jisshi/2026-11-03.docx"
+    },
+    "remote-kamotsu-bessi8-henko": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-kamotsu-bessi8-henko/2026-11-03.docx",
+          "sha256": "29e062098b7f3b4076f571b74e77967bb76f6fab12d0f17f551304e9e25f24d8",
+          "size": 28437,
+          "url": "https://www.mlit.go.jp/jidosha/content/001976976.docx"
+        }
+      ],
+      "title": "遠隔点呼の変更に係る届出書 (貨物 別紙8)",
+      "group": "遠隔点呼 届出 (貨物)",
+      "latest": "forms/remote-kamotsu-bessi8-henko/2026-11-03.docx"
+    },
+    "remote-kamotsu-bessi9-shuryo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-kamotsu-bessi9-shuryo/2026-11-03.docx",
+          "sha256": "5a303824a56ff0e27b7ee647d8cb3d4c8dee370a933fc73259aa7d22969dd8e8",
+          "size": 26974,
+          "url": "https://www.mlit.go.jp/jidosha/content/001904947.docx"
+        }
+      ],
+      "title": "遠隔点呼の終了に係る届出書 (貨物 別紙9)",
+      "group": "遠隔点呼 届出 (貨物)",
+      "latest": "forms/remote-kamotsu-bessi9-shuryo/2026-11-03.docx"
+    },
+    "remote-ryokaku-bessi3-jisshi": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-ryokaku-bessi3-jisshi/2026-11-03.docx",
+          "sha256": "f084b74d0b81f60633856ad59b2f625b1a6fda50764b1a70033086d5ffb9e29c",
+          "size": 28856,
+          "url": "https://www.mlit.go.jp/jidosha/content/001976973.docx"
+        }
+      ],
+      "title": "遠隔点呼の実施に係る届出書 (旅客 別紙3)",
+      "group": "遠隔点呼 届出 (旅客)",
+      "latest": "forms/remote-ryokaku-bessi3-jisshi/2026-11-03.docx"
+    },
+    "remote-ryokaku-bessi4-henko": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-ryokaku-bessi4-henko/2026-11-03.docx",
+          "sha256": "b1cb7f3c447373ad2a3646e7d387a91edbee7b9fc38fb4916ef820109aa9f088",
+          "size": 28595,
+          "url": "https://www.mlit.go.jp/jidosha/content/001976974.docx"
+        }
+      ],
+      "title": "遠隔点呼の変更に係る届出書 (旅客 別紙4)",
+      "group": "遠隔点呼 届出 (旅客)",
+      "latest": "forms/remote-ryokaku-bessi4-henko/2026-11-03.docx"
+    },
+    "remote-ryokaku-bessi5-shuryo": {
+      "versions": [
+        {
+          "date": "2026-11-03",
+          "file": "forms/remote-ryokaku-bessi5-shuryo/2026-11-03.docx",
+          "sha256": "133206c6f7e4adf9d29d852f424aa86332dc4a423d31b2471cb5a35e7b61ac29",
+          "size": 27159,
+          "url": "https://www.mlit.go.jp/jidosha/content/001906396.docx"
+        }
+      ],
+      "title": "遠隔点呼の終了に係る届出書 (旅客 別紙5)",
+      "group": "遠隔点呼 届出 (旅客)",
+      "latest": "forms/remote-ryokaku-bessi5-shuryo/2026-11-03.docx"
+    }
+  }
+}
