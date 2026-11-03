@@ -39,6 +39,7 @@ python3 scripts/fetch.py --add egov-tenko-todokede-sankou ~/Downloads/a15596A069
 | 欄 | 内容 |
 | --- | --- |
 | `version` | 製品番号の版。上げると両方の画面の名称が切り替わる |
+| `product_url` | 機器の概要が載ったウェブサイトの URL (様式2。国交省のウェブサイトに載る)。いまは GitHub Pages の操作マニュアル |
 | `certification.pre` / `.post` | 国交省の認定番号 (業務前・業務後)。認定が出たら入れる |
 | `history` | 版の履歴 (新しい順)。`summary` = 変更の内容及び理由、`date` = 変更の時期 (YYYY-MM-DD)、`impact` = 要件への影響。先頭と 2 件目から様式5 (仕様変更申請書) を作る |
 | `self_check.pre` / `.post` | 様式3-1・3-2 の要件ごとの答え。key は項目 (`一`〜`二十三`・`ア`〜`エ`)、値は `{"ok": "適", "detail": "…", "evidence": "…"}`。`evidence` は「資料番号①」の後ろに足す文 |

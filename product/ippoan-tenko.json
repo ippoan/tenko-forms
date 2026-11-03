@@ -2,6 +2,7 @@
   "$comment": "一歩庵点呼 (自動点呼機器) の製品の設定。auth.ippoan.org の認定申請ページ (開発者専用) と alc-app の点呼の届出が読む。版を上げるときは version を変え、history の先頭に 1 件足す (認定済みの版からの変更は、事前に様式5 の仕様変更申請が要る)。self_check は様式3-1 (pre)・3-2 (post) の要件ごとの答えで、key は様式の項目 (一〜二十三・ア〜エ)。書いていない項目は空欄のまま出す",
   "product": "一歩庵点呼",
   "version": "v1",
+  "product_url": "https://ippoan.github.io/alc-app/",
   "certification": {
     "pre": null,
     "post": null
