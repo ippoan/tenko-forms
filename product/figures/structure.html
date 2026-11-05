@@ -19,77 +19,76 @@
     .area{fill:none;stroke:#888;stroke-width:1.2;stroke-dasharray:3 3}
   </style>
 
-  <rect class="area" x="10" y="10" width="980" height="470" rx="8"/>
+  <rect class="area" x="10" y="10" width="980" height="500" rx="8"/>
   <text x="24" y="32" class="s">営業所（点呼場所）</text>
 
+  <!-- 監視カメラ -->
+  <rect class="box" x="30" y="60" width="230" height="90" rx="6"/>
+  <text x="145" y="88" text-anchor="middle" class="t">監視カメラ</text>
+  <text x="145" y="110" text-anchor="middle" class="s">点呼場所を撮影・録画</text>
+  <text x="145" y="128" text-anchor="middle" class="s">（ネットワークカメラ）</text>
+  <line class="l" x1="260" y1="105" x2="330" y2="105" marker-end="url(#a)"/>
+  <text x="295" y="97" text-anchor="middle" class="lb">LAN</text>
+
   <!-- PC -->
-  <rect class="main" x="380" y="50" width="250" height="110" rx="6"/>
-  <text x="505" y="78" text-anchor="middle" class="t">点呼端末 PC</text>
-  <text x="505" y="100" text-anchor="middle" class="s">画面（点呼手順の案内・判定結果）</text>
-  <text x="505" y="118" text-anchor="middle" class="s">カメラ・マイク（映像・音声の記録）</text>
-  <text x="505" y="136" text-anchor="middle" class="s">ブラウザで点呼画面を表示</text>
-
-  <!-- CoreS3 -->
-  <rect class="main" x="380" y="250" width="250" height="110" rx="6"/>
-  <text x="505" y="278" text-anchor="middle" class="t">制御装置（CoreS3）</text>
-  <text x="505" y="300" text-anchor="middle" class="s">画面・タッチ操作</text>
-  <text x="505" y="318" text-anchor="middle" class="s">機器の接続管理・端末の認証（署名）</text>
-  <text x="505" y="336" text-anchor="middle" class="s">Bluetooth・LAN（PoE）</text>
-
-  <line class="l" x1="505" y1="160" x2="505" y2="250" marker-end="url(#a)" marker-start="url(#a)"/>
-  <text x="515" y="210" class="lb">USB</text>
-
-  <!-- Vein -->
-  <rect class="box" x="60" y="60" width="230" height="90" rx="6"/>
-  <text x="175" y="90" text-anchor="middle" class="t">指静脈認証装置</text>
-  <text x="175" y="112" text-anchor="middle" class="s">運転者の本人確認</text>
-  <text x="175" y="130" text-anchor="middle" class="s">（なりすまし防止）</text>
-  <line class="l" x1="290" y1="105" x2="380" y2="105" marker-end="url(#a)" marker-start="url(#a)"/>
-  <text x="335" y="97" text-anchor="middle" class="lb">USB</text>
-
-  <!-- NFC -->
-  <rect class="box" x="60" y="260" width="230" height="90" rx="6"/>
-  <text x="175" y="290" text-anchor="middle" class="t">NFC リーダー</text>
-  <text x="175" y="312" text-anchor="middle" class="s">運転免許証の読み取り</text>
-  <text x="175" y="330" text-anchor="middle" class="s">（有効期限・乗務員の照合）</text>
-  <line class="l" x1="290" y1="305" x2="380" y2="305" marker-end="url(#a)" marker-start="url(#a)"/>
-  <text x="335" y="297" text-anchor="middle" class="lb">I2C</text>
-
-  <!-- FC-1200 -->
-  <rect class="box" x="380" y="400" width="250" height="66" rx="6"/>
-  <text x="505" y="428" text-anchor="middle" class="t">アルコール検知器 FC-1200</text>
-  <text x="505" y="450" text-anchor="middle" class="s">呼気中アルコール濃度の測定・自動記録</text>
-  <line class="l" x1="505" y1="360" x2="505" y2="400" marker-end="url(#a)" marker-start="url(#a)"/>
-  <text x="515" y="385" class="lb">RS-232C</text>
-
-  <!-- BLE devices -->
-  <rect class="box" x="720" y="230" width="240" height="66" rx="6"/>
-  <text x="840" y="258" text-anchor="middle" class="t">体温計 NT-100B</text>
-  <text x="840" y="280" text-anchor="middle" class="s">非接触で体温を測定</text>
-  <rect class="box" x="720" y="320" width="240" height="66" rx="6"/>
-  <text x="840" y="348" text-anchor="middle" class="t">血圧計 HCR-1902T2</text>
-  <text x="840" y="370" text-anchor="middle" class="s">血圧・脈拍を測定</text>
-  <path class="w" d="M720,263 L670,263 L670,295 L630,295" marker-end="url(#a)"/>
-  <path class="w" d="M720,353 L670,353 L670,320 L630,320" marker-end="url(#a)"/>
-  <text x="676" y="246" class="lb">Bluetooth</text>
+  <rect class="main" x="330" y="50" width="250" height="110" rx="6"/>
+  <text x="455" y="78" text-anchor="middle" class="t">点呼端末 PC</text>
+  <text x="455" y="100" text-anchor="middle" class="s">画面（点呼手順の案内・判定結果）</text>
+  <text x="455" y="118" text-anchor="middle" class="s">カメラ・マイク（映像・音声の記録）</text>
+  <text x="455" y="136" text-anchor="middle" class="s">ブラウザで点呼画面を表示</text>
 
   <!-- LAN -->
-  <rect class="box" x="720" y="70" width="240" height="70" rx="6"/>
-  <text x="840" y="98" text-anchor="middle" class="t">営業所のネットワーク</text>
-  <text x="840" y="120" text-anchor="middle" class="s">インターネットへ接続</text>
-  <line class="l" x1="630" y1="105" x2="720" y2="105" marker-end="url(#a)" marker-start="url(#a)"/>
+  <rect class="box" x="770" y="70" width="200" height="70" rx="6"/>
+  <text x="870" y="98" text-anchor="middle" class="t">営業所のネットワーク</text>
+  <text x="870" y="120" text-anchor="middle" class="s">インターネットへ接続</text>
+  <line class="l" x1="580" y1="105" x2="770" y2="105" marker-end="url(#a)" marker-start="url(#a)"/>
   <text x="675" y="97" text-anchor="middle" class="lb">LAN / Wi-Fi</text>
-  <path class="l" d="M630,275 L700,275 L700,140" marker-end="url(#a)"/>
-  <text x="706" y="200" class="lb">LAN（PoE）</text>
+  <text x="870" y="162" text-anchor="middle" class="s">→ 一歩庵点呼サーバ（システム図を参照）</text>
 
-  <text x="840" y="440" text-anchor="middle" class="s">→ 一歩庵点呼サーバ（システム図を参照）</text>
+  <!-- Vein Base -->
+  <rect class="main" x="195" y="220" width="520" height="180" rx="6"/>
+  <text x="455" y="246" text-anchor="middle" class="t">制御装置（Vein Base）</text>
+  <text x="455" y="266" text-anchor="middle" class="s">機器の接続管理・端末の認証（署名付き通信）</text>
+  <rect class="box" x="215" y="280" width="230" height="105" rx="6"/>
+  <text x="330" y="308" text-anchor="middle" class="t">指静脈認証装置</text>
+  <text x="330" y="330" text-anchor="middle" class="s">運転者の本人確認</text>
+  <text x="330" y="348" text-anchor="middle" class="s">（なりすまし防止）</text>
+  <text x="330" y="372" text-anchor="middle" class="lb">UART で接続（内蔵）</text>
+  <rect class="box" x="465" y="280" width="230" height="105" rx="6"/>
+  <text x="580" y="308" text-anchor="middle" class="t">NFC リーダー</text>
+  <text x="580" y="330" text-anchor="middle" class="s">運転免許証の読み取り</text>
+  <text x="580" y="348" text-anchor="middle" class="s">（有効期限・乗務員の照合）</text>
+  <text x="580" y="372" text-anchor="middle" class="lb">I2C で接続（内蔵）</text>
+
+  <line class="l" x1="455" y1="160" x2="455" y2="220" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="465" y="195" class="lb">USB</text>
+
+  <!-- FC-1200 -->
+  <rect class="box" x="330" y="435" width="250" height="62" rx="6"/>
+  <text x="455" y="461" text-anchor="middle" class="t">アルコール検知器 FC-1200</text>
+  <text x="455" y="483" text-anchor="middle" class="s">呼気中アルコール濃度の測定・自動記録</text>
+  <line class="l" x1="455" y1="400" x2="455" y2="435" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="465" y="422" class="lb">RS-232C</text>
+
+  <!-- BLE devices -->
+  <rect class="box" x="770" y="240" width="200" height="62" rx="6"/>
+  <text x="870" y="266" text-anchor="middle" class="t">体温計 NT-100B</text>
+  <text x="870" y="288" text-anchor="middle" class="s">非接触で体温を測定</text>
+  <rect class="box" x="770" y="322" width="200" height="62" rx="6"/>
+  <text x="870" y="348" text-anchor="middle" class="t">血圧計 HCR-1902T2</text>
+  <text x="870" y="370" text-anchor="middle" class="s">血圧・脈拍を測定</text>
+  <path class="w" d="M770,271 L742,271 L742,300 L715,300" marker-end="url(#a)"/>
+  <path class="w" d="M770,353 L742,353 L742,330 L715,330" marker-end="url(#a)"/>
+  <text x="772" y="232" class="lb">Bluetooth</text>
 
   <!-- legend -->
-  <line class="l" x1="40" y1="510" x2="80" y2="510"/><text x="88" y="514" class="s">有線（USB・RS-232C・I2C・LAN）</text>
-  <line class="w" x1="330" y1="510" x2="370" y2="510"/><text x="378" y="514" class="s">無線（Bluetooth）</text>
+  <line class="l" x1="40" y1="535" x2="80" y2="535"/><text x="88" y="539" class="s">有線（USB・RS-232C・UART・I2C・LAN）</text>
+  <line class="w" x1="360" y1="535" x2="400" y2="535"/><text x="408" y="539" class="s">無線（Bluetooth）</text>
 </svg>
 <div class="note">
+・制御装置（Vein Base）は指静脈認証装置と NFC リーダーを内蔵し、点呼端末 PC と USB でつなぐ。インターネットへは点呼端末 PC を通して接続する。<br>
 ・アルコール検知器 FC-1200 は、制御装置（RS-232C）または点呼端末 PC（USB）のどちらか一方に接続する。測定結果は機器から自動で取り込み、手入力・修正はできない。<br>
 ・体温計・血圧計の測定値は Bluetooth で制御装置が自動で受け取る。<br>
+・監視カメラは点呼場所を撮影・録画し、点呼の時間帯の映像を点呼記録と結び付けて保存する（システム図を参照）。<br>
 ・点呼端末 PC は利用者が用意する（カメラ・マイク付き、ブラウザが動くもの）。
 </div>
